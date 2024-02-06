@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap project-2</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-light main-header sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="media/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto our-primary-menu">
+                    <li><a href="#">Home<i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">Home One</a></li>
+                            <li><a href="#">Home Two</a></li>
+                            <li><a href="#">Home Three</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Pages<i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">GAllery</a></li>
+                            <li><a href="#">Loan Calculatop</a></li>
+                            <li><a href="#">Apply now</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Project<i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="ul-left">
+                                    <li><a href="">Project</a></li>
+                                    <li><a href="">Project Detels</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Sing Up</a></li>
+                            <li><a href="#">Sing in</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Error Page</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Services<i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Services Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Funding</a></li>
+                    <li><a href="#">Loans</a></li>
+                    <li><a href="#">News<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="">
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">News Ditels</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="header-info d-flex align-items-center">
+                    <div class="header-search pe-2 border-secondary border-end">
+                        <span><i class="fas fa-search    "></i></span>
+                    </div>
+                    <div class="header-call">
+                        <div class="header-call-icon float-start ms-1 me-3">
+                            <span><i class="fas fa-phone-volume    "></i></span>
+                        </div>
+                        <div class="header-call-info">
+                            <span>Call Now</span>
+                            <a href="tel:+01725219410">01725219410</a>
+                        </div>
+                    </div>
+                    <div class="header-button">
+                        <a href="#" class="btn btn-primary to-colors">Aply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="slider-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex align-items-center slider-conttent-wrap position-relative ">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="slaider-content mb-5 ">
+                                <h6>We are here for</h6>
+                                <h1>We believe in those made to do more</h1>
+                                <p>Loans are advantageous as a relatively inexpensive way of borrowing money. Start or grow your own business</p>
+                                <a class="btn header-button to-colors mb-5" href="#">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-social position-relative bottom-0 mb-5">
+                    <ul class="d-flex nav mt-5">
+                        <li class="line">Follow us</li>
+                        <li class="mx-2"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="mx-2"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li class="mx-2"><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        <li class="mx-2"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="logo-section border">
+        <div class="container">
+            <div class="col-lg-12">
+                <ul class="d-flex justify-content-around list-unstyled py-5">
+                    <li><a href="#"><img src="media/image1.png" alt=""></a></li>
+                    <li><a href="#"><img src="media/image2.png" alt=""></a></li>
+                    <li><a href="#"><img src="media/image4.png" alt=""></a></li>
+                    <li><a href="#"><img src="media/image5.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section pading ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img class="pp" src="media/images3.png" alt="">
+                        <div class="about-img-text">
+                            <div class="about-text-center">
+                                <h2>25</h2>
+                                <p class="text-muted">Years Of Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <div class="finix-text">
+                            <h6>About Company</h6>
+                            <h2>We have been working very efficiently with loan and funding for 25 years.</h2>
+                            <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                            <strong class="lead">In business, we focus on 3 things.</strong>
+                            <ul class="list-unstyled py-2">
+                                <li><i class="fa-solid fa-check"></i>Useful info</li>
+                                <li><i class="fa-solid fa-check"></i>Reliability</li>
+                                <li><i class="fa-solid fa-check"></i>Innovation</li>
+                            </ul>
+                            <a class="btn " href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us pading grybg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="finix-text">
+                        <h6>Transparent process</h6>
+                        <h2>Why people choose us</h2>
+                        <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.</p>
+                        <div class="finix-img">
+                            <img src="media/choose.png" alt="">
+                            <a class="play-animation-btn" href="#"><i class="fa-solid fa-circle-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6 mt-4  ">
+                            <div class="features-items text-center rounded">
+                                <div class="ft-icon">
+                                    <i class="fa-regular fa-circle-user"></i>
+                                </div>
+                                <h3 class="py-4">Guarantee</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="features-items text-center rounded">
+                                <div class="ft-icon">
+                                    <i class="fa-brands fa-stumbleupon-circle"></i>
+                                </div>
+                                <h3 class="py-4">Speed</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="features-items text-center rounded">
+                                <div class="ft-icon">
+                                    <i class="fa-solid fa-fan"></i>
+                                </div>
+                                <h3 class="py-4">Reliability</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mtop">
+                            <div class="features-items text-center rounded ">
+                                <div class="ft-icon">
+                                    <i class="fa-regular fa-gem"></i>
+                                </div>
+                                <h3 class="py-4">Experience</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="applay-now-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="finix-text text-center py-5">
+                    <h6>Transparent process</h6>
+                    <h2>Why people choose us</h2>
+                    <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna
+                        aliqua.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="apply-now-left">
+                        <h2 class="mb-4">We usually follow 4 steps to get a better business loans.</h2>
+                        <div class="step-timline">
+                            <ul>
+                                <li data-count="1">
+                                    <strong>Apply in 10 minutes</strong>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.</p>
+                                </li>
+                                <li data-count="2">
+                                    <strong>Hear from us in 1 hour</strong>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua.</p>
+                                </li>
+                                <li data-count="3">
+                                    <strong>Your loan is funded</strong>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut sed do eiusmod tempor incididunt ut labore et dolore magna labore et dolore magna
+                                        aliqua.</p>
+                                </li>
+                                <li data-count="4">
+                                    <strong>A decision in 24 hours</strong>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-2">Applay Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="full-form">
+                        <div class="finix-text text-center ">
+                            <h6>How much do you need?</h6>
+                            <h2>How much do you need?</h2>
+                        </div>
+                        <div class="forom-section">
+                            <form action="#">
+                                <div class="from-group">
+                                    <label for="many">Type The Money</label>
+                                    <input type="text" class="form-control " name="" id="many" placeholder="$1000">
+                                </div>
+                                <div class="from-group">
+                                    <label for="many">Select The Month/Years</label>
+                                    <select name="" id="" class="form-select">
+                                        <option selected>Select The Month/Years</option>
+                                        <option value="1">1 Month</option>
+                                        <option value="2">2 Month</option>
+                                        <option value="3">3 Month</option>
+                                        <option value="4">4 Month</option>
+                                    </select>
+                                </div>
+                                <div class="from-group">
+                                    <label for="many">Borrowing</label>
+                                    <input type="text" class="form-control " name="" id="many" placeholder="$1000">
+                                </div>
+                                <div class="from-group">
+                                    <label for="many">Term Of Use</label>
+                                    <input type="text" class="form-control " name="" id="many" placeholder="6 Month">
+                                </div>
+                                <div class="from-group">
+                                    <label for="many">The Total You Will Pay</label>
+                                    <input type="text" class="form-control " name="" id="many" placeholder="$1100">
+                                </div>
+                            </form>
+                        </div>
+                        <a href="#" class="btn btn-primary mt-4 w-100">Applay For This Loan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="business-Call">
+        <div class="container">
+            <div class="business-bg">
+                <div class="row ">
+                    <div class="col-lg-7 p-5">
+                        <h2>We are here to help your business Call to discuss your Solution</h2>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="business-right p-5">
+                            <i class="fas fa-phone-volume    "></i>
+                            <h2>+1 (514) 312-5678</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-company py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="py-4">Our company values</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="value-item d-flex">
+                        <div class="value-icon">
+                            <i class="fa-regular fa-lightbulb"></i>
+                        </div>
+                        <div class="value-text">
+                            <h3>Innovative</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="value-item d-flex">
+                        <div class="value-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <div class="value-text">
+                            <h3>Innovative</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="value-item d-flex">
+                        <div class="value-icon">
+                            <i class="fa-solid fa-key"></i>
+                        </div>
+                        <div class="value-text">
+                            <h3>Innovative</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="value-item d-flex">
+                        <div class="value-icon ">
+                            <i class="fa-solid fa-person-chalkboard"></i>
+                        </div>
+                        <div class="value-text">
+                            <h3>Innovative</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="our-company-img">
+                        <img src="media/company2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="testmonial-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="finix-text text-center">
+                        <h6>Clients words</h6>
+                        <h2>What our clients say</h2>
+                        <p class="w-75 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <!-- ======================================== -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row about-img py-5">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-6 py-5">
+                                <div class="testmonial-content ps-5">
+                                    <strong class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, obcaecati dolor maiores rem
+                                        omnis architecto quia, deserunt harum aspernatur iure amet saepe recusandae qui distinctio, consequuntur
+                                        necessitatibus. Labore amet nesciunt consectetur tempora ipsa nam dignissimos!</strong>
+                                    <div class="client-detels">
+                                        <h6 class="pt-3">Md.Mamun Islam</h6>
+                                        <p>Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testmonial-imag">
+                                    <img src="media/man.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row about-img py-5">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-6 py-5">
+                                <div class="testmonial-content ps-5">
+                                    <strong class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, obcaecati dolor maiores rem
+                                        omnis architecto quia, deserunt harum aspernatur iure amet saepe recusandae qui distinctio, consequuntur
+                                        necessitatibus. Labore amet nesciunt consectetur tempora ipsa nam dignissimos!</strong>
+                                    <div class="client-detels">
+                                        <h6 class="pt-3">Md.Mamun Islam</h6>
+                                        <p>Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testmonial-imag">
+                                    <img src="media/man.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row about-img py-5">
+                            <div class="col-lg-1"></div>
+                            <div class="col-lg-6 py-5">
+                                <div class="testmonial-content ps-5">
+                                    <strong class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, obcaecati dolor maiores rem
+                                        omnis architecto quia, deserunt harum aspernatur iure amet saepe recusandae qui distinctio, consequuntur
+                                        necessitatibus. Labore amet nesciunt consectetur tempora ipsa nam dignissimos!</strong>
+                                    <div class="client-detels">
+                                        <h6 class="pt-3">Md.Mamun Islam</h6>
+                                        <p>Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="testmonial-imag">
+                                    <img src="media/man.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-1"></div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="time-member-section grybg py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="finix-text text-center">
+                        <h6>Harry Nelis</h6>
+                        <h2>Technology Officer</h2>
+                        <p class="w-75 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-3 pt-5">
+                    <div class="team-menber">
+                        <div class="member-image">
+                            <img src="media/image4.jpg" alt="">
+                        </div>
+                        <div class="member-content p bottom-0 ">
+                            <ul>
+                                <li class=""><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-detels pt-3">
+                        <h6>Jerome le lurl</h6>
+                        <p>Managing Director</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 pt-5">
+                    <div class="team-menber">
+                        <div class="member-image">
+                            <img src="media/image2.jpg" alt="">
+                        </div>
+                        <div class="member-content p bottom-0 ">
+                            <ul>
+                                <li class=""><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-detels pt-3">
+                        <h6>Jerome le lurl</h6>
+                        <p>Managing Director</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 pt-5">
+                    <div class="team-menber">
+                        <div class="member-image">
+                            <img src="media/image3 (1).jpg" alt="">
+                        </div>
+                        <div class="member-content p bottom-0 ">
+                            <ul>
+                                <li class=""><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-detels pt-3">
+                        <h6>Andrew Learoyd</h6>
+                        <p>Chief Executive Officer</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 pt-5">
+                    <div class="team-menber">
+                        <div class="member-image">
+                            <img src="media/image1 (1).jpg" alt="">
+                        </div>
+                        <div class="member-content p bottom-0 ">
+                            <ul>
+                                <li class=""><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li class=""><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="member-detels pt-3">
+                        <h6>Lucy Vernall</h6>
+                        <p>Chief Financial Officer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="story-section grybg py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="finix-text text-center">
+                        <h6>Harry Nelis</h6>
+                        <h2>Technology Officer</h2>
+                        <p class="w-75 m-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna
+                            aliqua.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4 pt-5">
+                    <div class="team-menber">
+                        <div class="member-image">
+                            <img src="media/image1.jpg" alt="">
+                        </div>
+                        <h6 class="pt-3">July 05, 2022</h6>
+                        <div class="story-content">
+                            <h3>Financing loans available to small businesses</h3>
+                            <strong>Read more</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-5">
+                    <div class="team-menber">
+                        <div class="member-image">
+                            <img src="media/story2 (2).jpg" alt="">
+                        </div>
+                        <h6 class="pt-3">July 04, 2022</h6>
+                        <div class="story-content">
+                            <h3>5 Ways you can prepare your business for success</h3>
+                            <strong>Read more</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 pt-5">
+                    <div class="team-menber">
+                        <div class="member-image">
+                            <img src="media//story(1).jpg" alt="">
+                        </div>
+                        <h6 class="pt-3">July 03, 2022</h6>
+                        <div class="story-content">
+                            <h3>Tips for saving money and better guide for investment</h3>
+                            <strong>Read more</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="footer pt-5 bg-dark text-light">
+        <div class="foter-top pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer-widget ">
+                            <img class="mb-4" src="media/logo2.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua.</p>
+                            <div class="widget-icon">
+                                <ul>
+                                    <li><strong>Follow us:</strong></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-widget">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Our Performance</a></li>
+                                <li><a href="#">Help (FAQ)</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-widget">
+                            <h3>Other Resources</h3>
+                            <ul>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Business Loans</a></li>
+                                <li><a href="#">Loan Services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer-widget">
+                            <h3>Contact Us</h3>
+                            <div class="footer-contact">
+                                <div class="futter-contact-icon d-flex">
+                                    <span><i class="fa-solid fa-location-dot"></i></span>
+                                    <a href="#">7000,Khulna,Kushtia</a>
+                                </div>
+                                <div class="futter-contact-icon d-flex">
+                                    <span><i class="fa-regular fa-envelope"></i></span>
+                                    <a href="mailto:mdmamunislam2132@GMAIL.COM">mdmamunislam2132@gmail.com</a>
+                                </div>
+                                <div class="futter-contact-icon d-flex">
+                                    <span><i class="fa-solid fa-phone"></i></span>
+                                    <a href="tel:01759757473">01759-757473</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-copyright text-center">
+                            <p>Copyright @2022 Finix. Designed By <a href="mailto:mdmamunislam2132@gmail.com"><strong> Md. Mamun</strong></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- BOOTSTRAP -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
